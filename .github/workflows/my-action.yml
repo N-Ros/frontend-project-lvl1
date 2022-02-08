@@ -1,21 +1,18 @@
-name: linter
+name: linter-check
 
 on:
   push:
-    branches:
-      - '**'
-    tags:
-      - '**'
+    branches: [ main ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
-    name: npm install
-      run:
-        make install
-      env:
-        CI: true
-        - name: Run linter
-        run:
+      - name: Run install
+        run: |
+          make install
+      - name: Run Linter
+        run: |
           make lint
