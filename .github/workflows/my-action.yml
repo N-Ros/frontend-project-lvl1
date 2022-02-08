@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     name: npm install
-        run: |
+        run:
           make install
         env:
           CI: true
       - name: Run linter
-        run: |
+        run:
           make lint
