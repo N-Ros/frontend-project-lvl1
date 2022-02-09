@@ -5,3 +5,6 @@
 
 ### "Brain Even" game
 [![asciicast](https://asciinema.org/a/lNF97vH18LIQyhaXp4sjKLSDt.svg)](https://asciinema.org/a/lNF97vH18LIQyhaXp4sjKLSDt)
+
+### "Brain Calculator" game
+[![asciicast](https://asciinema.org/a/WdTJNPxnHsLkFRAUQgQnrwbMI.svg)](https://asciinema.org/a/WdTJNPxnHsLkFRAUQgQnrwbMI)
