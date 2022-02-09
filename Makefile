@@ -14,6 +14,4 @@ publish:
 	npm publish --dry-run
 
 lint:
-	cd
-	cd frontend-project-lvl1/
 	npx eslint .
