@@ -22,7 +22,7 @@ function gameCheck() {
   const charList = ['+', '-', '*'];
   const char = charList[charNumber];
   const question = `${firstNumber} ${char} ${secondNumber}`;
-  const correctAnswer = calc(firstNumber, secondNumber, char);
+  const correctAnswer = `${calc(firstNumber, secondNumber, char)}`;
   return [question, correctAnswer];
 }
 
