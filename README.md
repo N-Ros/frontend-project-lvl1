@@ -11,3 +11,6 @@
 
 ### "Brain Gretest Common Devisor" game
 [![asciicast](https://asciinema.org/a/57QyJK4ohcFDEoBrdZv3l70VL.svg)](https://asciinema.org/a/57QyJK4ohcFDEoBrdZv3l70VL)
+
+### "Brain Progression" game
+[![asciicast](https://asciinema.org/a/AoYkHamo1j1YiAAf0E5uD1Mkp.svg)](https://asciinema.org/a/AoYkHamo1j1YiAAf0E5uD1Mkp)
