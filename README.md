@@ -8,3 +8,6 @@
 
 ### "Brain Calculator" game
 [![asciicast](https://asciinema.org/a/WdTJNPxnHsLkFRAUQgQnrwbMI.svg)](https://asciinema.org/a/WdTJNPxnHsLkFRAUQgQnrwbMI)
+
+### "Brain Gretest Common Devisor" game
+[![asciicast](https://asciinema.org/a/57QyJK4ohcFDEoBrdZv3l70VL.svg)](https://asciinema.org/a/57QyJK4ohcFDEoBrdZv3l70VL)
