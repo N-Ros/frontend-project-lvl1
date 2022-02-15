@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import isLostMember from '../src/games/brain-progression.js';
+import playBrainMember from '../src/games/brain-progression.js';
 
-isLostMember();
+playBrainMember();

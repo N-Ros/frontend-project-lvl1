@@ -6,14 +6,12 @@ const gameRules = 'Find the greatest common divisor of given numbers.';
 function gcd(firstNumber, secondNumber) {
   const first = Math.max(firstNumber, secondNumber);
   const second = Math.min(firstNumber, secondNumber);
-  let result = 0;
   for (let i = second; i >= 1; i -= 1) {
     if (first % i === 0 && second % i === 0) {
-      result = i;
-      return result;
+      return i;
     }
   }
-  return result;
+  return null;
 }
 
 const gameCheck = () => {
@@ -24,6 +22,6 @@ const gameCheck = () => {
   return [question, correctAnswer];
 };
 
-const isGcd = () => engine(gameRules, gameCheck);
+const playBrainGcd = () => engine(gameRules, gameCheck);
 
-export default isGcd;
+export default playBrainGcd;

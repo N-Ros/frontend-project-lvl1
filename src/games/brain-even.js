@@ -12,6 +12,6 @@ const gameCheck = () => {
   return [question, correctAnswer];
 };
 
-const brainEven = () => engine(gameRules, gameCheck);
+const playBrainEven = () => engine(gameRules, gameCheck);
 
-export default brainEven;
+export default playBrainEven;

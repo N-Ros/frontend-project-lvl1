@@ -14,14 +14,14 @@ const progression = (firstMember, ctepsCounter, step) => {
 const gameCheck = () => {
   const firstMember = getRandomNumber(1, 20);
   const step = getRandomNumber(1, 10);
-  const ctepsCounter = getRandomNumber(5, 10);
-  const array = progression(firstMember, ctepsCounter, step);
+  const stepsCounter = getRandomNumber(5, 10);
+  const array = progression(firstMember, stepsCounter, step);
   const randomMember = getRandomNumber(0, array.length - 1);
   const correctAnswer = String(array[randomMember]);
   array[randomMember] = '..';
   return [array.join(' '), correctAnswer];
 };
 
-const isLostMember = () => engine(gameRules, gameCheck);
+const playBrainMember = () => engine(gameRules, gameCheck);
 
-export default isLostMember;
+export default playBrainMember;

@@ -4,7 +4,7 @@ import getRandomNumber from '../getRandomNumber.js';
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
-  if (number === 0 || number === 1) {
+  if (number < 2) {
     return false;
   }
   if (number === 2) {
@@ -24,6 +24,6 @@ const gameCheck = () => {
   return [number, correctAnswer];
 };
 
-const brainPrime = () => engine(gameRules, gameCheck);
+const playBrainPrime = () => engine(gameRules, gameCheck);
 
-export default brainPrime;
+export default playBrainPrime;

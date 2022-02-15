@@ -6,19 +6,16 @@ const gameRules = 'What is the result of the expression?';
 const charList = ['+', '-', '*'];
 
 const calc = (firstNumber, secondNumber, char) => {
-  let result = 0;
   switch (char) {
     case '+':
-      result = firstNumber + secondNumber;
-      break;
+      return (firstNumber + secondNumber);
     case '-':
-      result = firstNumber - secondNumber;
-      break;
+      return (firstNumber - secondNumber);
+    case '*':
+      return (firstNumber * secondNumber);
     default:
-      result = firstNumber * secondNumber;
-      break;
+      throw new Error(`Unknown symbol: '${char}'!`);
   }
-  return result;
 };
 
 function gameCheck() {
@@ -31,6 +28,6 @@ function gameCheck() {
   return [question, correctAnswer];
 }
 
-const brainCalc = () => engine(gameRules, gameCheck);
+const playBrainCalc = () => engine(gameRules, gameCheck);
 
-export default brainCalc;
+export default playBrainCalc;
