@@ -10,7 +10,7 @@ const isPrime = (number) => {
   if (number === 2) {
     return true;
   }
-  for (let i = number - 1; i >= number / 2; i -= 1) {
+  for (let i = number - 1; i >= 2; i -= 1) {
     if (number % i === 0) {
       return false;
     }
